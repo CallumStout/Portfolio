@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #f8f9fa;
+  font-family: "Roboto", sans-serif;
+}
+
+#top-container {
+  height: 25%;
+  padding-top: 6%;
+  position: relative;
+}
+
+#button-container {
+  height: 75%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#pagebuttons {
+  display: inline-block;
+  padding-top: 3%;
+}
+
+#about-me {
+  width: 50%;
+  padding-top: 5%;
+  display: inline-block;
+}
+
+#github {
+  width: 50%;
+  padding-top: 5%;
+  display: inline-block;
+}
+
+#contact-details {
+  width: 50%;
+  padding-top: 5%;
+  display: inline-block;
+}
+
+#academy {
+  padding-top: 3%;
+}
+
+#email {
+  padding-top: 3%;
+}
+
+.selectionbuttons {
+  font-family: "Roboto", sans-serif;
+  height: 60px;
+  width: 30%;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 2em;
+  background-color: #CDE8E5;
+  border: none;
+}
+
+.selectionbuttons:hover {
+  background-color: #7AB2B2;
+  color: white;
+}
+
+#home {
+  cursor: pointer;
+}
+
+#home:hover {
+  color: #4CAF50;
+}
