@@ -1,76 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-  margin: 0;
-  text-align: center;
-  background-color: #f8f9fa;
-  font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 600px) {
+    #button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .selectionbuttons {
+        width: 80%;
+        height: auto;
+        margin: 10px 0;
+    }
 }
 
 #top-container {
-  height: 25%;
-  padding-top: 6%;
-  position: relative;
+    display: flex;
+    justify-content: center;
+    height: 25%;
+    padding-top: 2%;
+    position: relative;
 }
 
 #button-container {
-  height: 75%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-#pagebuttons {
-  display: inline-block;
-  padding-top: 3%;
-}
-
-#about-me {
-  width: 50%;
-  padding-top: 5%;
-  display: inline-block;
-}
-
-#github {
-  width: 50%;
-  padding-top: 5%;
-  display: inline-block;
-}
-
-#contact-details {
-  width: 50%;
-  padding-top: 5%;
-  display: inline-block;
-}
-
-#academy {
-  padding-top: 3%;
-}
-
-#email {
-  padding-top: 3%;
+    display: flex;
+    justify-content: center;
 }
 
 .selectionbuttons {
-  font-family: "Roboto", sans-serif;
-  height: 60px;
-  width: 30%;
-  border-radius: 5px;
-  padding: 8px;
-  font-size: 2em;
-  background-color: #CDE8E5;
-  border: none;
+    border-style: solid;
+    color: black;
+    text-decoration: none;
+    border-radius: 5%;
+    display: flex;
+    height: 400%;
+    width: 350px;
+    padding: 20px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    font-weight: 900;
 }
 
-.selectionbuttons:hover {
-  background-color: #7AB2B2;
-  color: white;
+#about-me {
+    width: 50%;
+    padding-top: 5%;
+    display: inline-block;
+}
+
+#github {
+    width: 50%;
+    padding-top: 5%;
+    display: inline-block;
+}
+
+#contact-details {
+    width: 50%;
+    padding-top: 5%;
+    display: inline-block;
+}
+
+#academy {
+    padding-top: 3%;
+}
+
+#email {
+    padding-top: 3%;
 }
 
 #home {
-  cursor: pointer;
+    cursor: pointer;
 }
 
-#home:hover {
-  color: #4CAF50;
-}
+    #home:hover {
+        color: #4CAF50;
+    }
