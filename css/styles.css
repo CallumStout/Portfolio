@@ -77,6 +77,6 @@ body {
     cursor: pointer;
 }
 
-    #home:hover {
-        color: #4CAF50;
-    }
+#home:hover {
+    color: #4CAF50;
+}
