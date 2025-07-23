@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
+    background-image: url('../images/skyline.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
@@ -32,6 +38,7 @@ body {
 }
 
 .selectionbuttons {
+    position: relative;
     border-style: solid;
     color: black;
     text-decoration: none;
@@ -39,12 +46,23 @@ body {
     display: flex;
     height: 400%;
     width: 350px;
-    padding: 20px 20px;
+    padding: 20px;
     font-size: 1.5rem;
     cursor: pointer;
     margin: 20px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
     font-weight: 900;
+}
+
+.selectionbuttons img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: auto;
+    pointer-events: none;
+    z-index: 0;
 }
 
 #about-me {
@@ -78,5 +96,5 @@ body {
 }
 
 #home:hover {
-    color: #4CAF50;
+    color: white;
 }
