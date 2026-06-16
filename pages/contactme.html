@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
     <title>Callum's Personal Site</title>
-    <link rel="stylesheet" href="../css/styles.css?=v4" />
+    <link rel="stylesheet" href="../css/styles.css?v=11" />
     <link rel="icon" href="../favicon.ico" />
     <script src="../js/pagehandler.js"></script>
 </head>
@@ -10,18 +10,32 @@
 <body>
     <div id="top-container">
         <div id="title">
-            <h1 id="home">Callum Stout.</h1>
+            <div class="title-row">
+                <h1>Callum Stout.</h1>
+                <a class="home-button" href="../index.html" aria-label="Home">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M4 11.25 12 4l8 7.25v8a.75.75 0 0 1-.75.75H15.5a.75.75 0 0 1-.75-.75V15a.75.75 0 0 0-.75-.75h-4a.75.75 0 0 0-.75.75v4.25a.75.75 0 0 1-.75.75H4.75A.75.75 0 0 1 4 19.25v-8Z"/>
+                    </svg>
+                    <span class="sr-only">Home</span>
+                </a>
+            </div>
             <p>Software Engineer - C# / .NET</p>
         </div>
     </div>
 
     <div id="contact-details">
-        <div id="linkedin">
-            <a href="https://www.linkedin.com/in/callum-stout-0bb7991a3/">LinkedIn</a>
-        </div>
-        <div id="email">
-            <a href=" mailto:callum.stout03@gmail.com">callum.stout03@gmail.com</a>
-        </div>
+        <a class="contact-icon" href="https://www.linkedin.com/in/callum-stout-0bb7991a3/" aria-label="LinkedIn profile">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6.94 8.98H3.75v10.27h3.19V8.98ZM5.35 4.75a1.85 1.85 0 1 0 0 3.7 1.85 1.85 0 0 0 0-3.7Zm13.9 8.62c0-3.1-1.66-4.54-3.87-4.54-1.78 0-2.58.98-3.03 1.67V8.98H9.3v10.27h3.18v-5.08c0-1.34.25-2.64 1.91-2.64 1.64 0 1.66 1.53 1.66 2.72v5h3.19v-5.88Z"/>
+            </svg>
+            <span class="sr-only">LinkedIn</span>
+        </a>
+        <a class="contact-icon" href="mailto:callum.stout03@gmail.com" aria-label="Email Callum">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4.75 6.5h14.5c.97 0 1.75.78 1.75 1.75v7.5c0 .97-.78 1.75-1.75 1.75H4.75A1.75 1.75 0 0 1 3 15.75v-7.5c0-.97.78-1.75 1.75-1.75Zm.42 2.1 6.4 4.72c.26.19.6.19.86 0l6.4-4.72a.74.74 0 0 0-.58-.35H4.75a.74.74 0 0 0-.58.35Zm14.33 1.44-6.18 4.55a2.24 2.24 0 0 1-2.64 0L4.5 10.04v5.71c0 .14.11.25.25.25h14.5c.14 0 .25-.11.25-.25v-5.71Z"/>
+            </svg>
+            <span class="sr-only">Email</span>
+        </a>
     </div>
 </body>
 </html>
